@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        #wrapper { background-color:rgb(255, 142, 4);
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 2em;}
+        </style>
+    </head>
+<body>
+
+<div id = "wrapper">
+
+<img src = "https://www.madlibs.com/wp-content/themes/madlibs/assets/images/mdl_logo.png" width="20%" height="auto" alt="mad libs logo">
+<p>Please enter the following information:</p>
+<span id ="inputs">
+<input id="pluralNoun" placeholder="a plural noun" type="text"><br>
+<input id="noun1" placeholder="a noun" type="text"><br>
+<input id="noun2" placeholder="another noun" type="text"><br>
+<input id="song" placeholder="song" type="text"><br>
+<input id="verb" placeholder="verb" type="text"><br>
+
+
+</span>
+            <br>
+            <button type="button" onclick="createMessage()">Submit</button>
+            <br>
+            <br>
+
+            <div id="result" style="display:none">
+                How to make a great valentines day.<br>
+                <ol>
+                    <li>
+                        Get your girlfriend a gift like <span id="word1">flowers</span>.
+                    </li>
+                    <br>
+                    <li>
+                        Go to nice place like a<span id="word2">park</span> and then choose a restaurant like <span id="word3">applebees</span>.
+                    </li>
+                    <br>
+                    <li>
+                        Then you can go out to karaoke with her and sing <span id="word4">Row,row your boat</span>.
+                    </li>
+                    <br>
+                    <li>
+                      You can then do anything else with her like <span id="word5">talk</span> with your girlfriend
+                    </li>
+                </ol>
+                <br>
+                <button type="button" onclick="goAgain()">Go Again</button>
+            </div>
+
+    </main>
+    <script src="madlibs.js"></script>
+</body>
+
+</html>
